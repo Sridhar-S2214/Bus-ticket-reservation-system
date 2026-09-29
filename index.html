@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Bus Ticket Booking System</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+
+    <h1>🚌 Bus Ticket Booking System</h1>
+
+    <p>Book your bus ticket easily and quickly.</p>
+
+
+    <h2>Search for a Bus</h2>
+
+    <form>
+
+        <label>From:</label>
+
+        <select>
+            <option>Select Source</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Madurai</option>
+            <option>Trichy</option>
+            <option>Salem</option>
+        </select>
+
+
+        <br><br>
+
+
+        <label>To:</label>
+
+        <select>
+            <option>Select Destination</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Madurai</option>
+            <option>Trichy</option>
+            <option>Salem</option>
+        </select>
+
+
+        <br><br>
+
+
+        <label>Journey Date:</label>
+
+        <input type="date">
+
+
+        <br><br>
+
+
+        <button type="button" onclick="searchBus()">
+            Search Buses
+        </button>
+
+    </form>
+
+    <div id="busResults"></div>
+    <script src="../static/js/script.js"></script>
+
+</body>
+</html>
